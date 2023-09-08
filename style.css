@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    padding-block: 5rem;
+}
+
+
+.container .username{
+    font-size: 4rem;
+}
+
+.container p,a{
+    font-size: 3rem;
+}
+
+
